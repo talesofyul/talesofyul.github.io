@@ -13,7 +13,7 @@ function loadJSON(callback) {
 // Function to populate footer element
 function populateFooter() {
   loadJSON(function (data) {
-    var footer = document.getElementsByTagName("footer");
+    var footer = document.getElementsByTagName("footer")[0];
     var content = "<h2>Recent Investigation Results</h2>";
 
     // Assuming the JSON file contains an array of strings
