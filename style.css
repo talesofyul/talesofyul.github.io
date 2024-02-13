@@ -28,6 +28,11 @@ img.illustration {
     margin-bottom: 10px;
 }
 
+.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
 .breadcrumb a {
     color: #333;
     text-decoration: none;
