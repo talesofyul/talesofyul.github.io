@@ -28,7 +28,7 @@ img.illustration {
     margin-bottom: 10px;
 }
 
-.breadcrumb li {
+.breadcrumb ul li {
     display: inline;
     font-size: 18px;
 }
