@@ -20,6 +20,7 @@ img.illustration {
     border-radius: 50%;
     margin-top: 20px;
     float: left;
+    border: 8px solid grey;
 }
 .breadcrumb {
     background-color: #f2f2f2;

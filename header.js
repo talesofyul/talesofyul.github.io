@@ -8,7 +8,7 @@ const pageTitle = document.title.split(' | ')[0];
 const breadcrumbHTML = `
 <nav class="breadcrumb">
     <ul>
-      <li><a href="/">Tales Of Yul</a></li> -
+      <li><a href="index.html">Tales Of Yul</a></li> -
       <li>${pageTitle}</li>
     </ul>
   </nav>
