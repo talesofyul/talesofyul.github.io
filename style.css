@@ -52,4 +52,23 @@ div.card {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     display: flex;
     flex-direction: row;
+    width: 100%; /* Default width */
+}
+
+@media (min-width: 350px) {
+    div.card {
+        width: 50%; /* Adjust the width for screens larger than 768px */
+    }
+}
+
+@media (min-width: 768px) {
+    div.card {
+        width: 33.32%; /* Adjust the width for screens larger than 768px */
+    }
+}
+
+@media (min-width: 1024px) {
+    div.card {
+        width: 19%; /* Adjust the width for screens larger than 1024px */
+    }
 }
