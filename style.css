@@ -46,6 +46,7 @@ img.illustration {
 footer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 div.card {
