@@ -42,3 +42,14 @@ img.illustration {
 .breadcrumb a:hover {
     text-decoration: underline;
 }
+
+div.card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+}

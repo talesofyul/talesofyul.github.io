@@ -18,7 +18,7 @@ function populateFooter() {
 
     // Assuming the JSON file contains an array of strings
     data.forEach(function (item) {
-      content += "<p>" + item + "</p>";
+      content += "<div class='card'>" + item + "</div>";
     });
 
     footer.innerHTML = content;
