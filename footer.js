@@ -14,8 +14,7 @@ function loadJSON(callback) {
 function populateFooter() {
   loadJSON(function (data) {
     var footer = document.getElementsByTagName("footer")[0];
-
-    // Assuming the JSON file contains an array of strings
+    var content = "";
     data.forEach(function (item) {
       content += "<div class='card'>" + item + "</div>";
     });
