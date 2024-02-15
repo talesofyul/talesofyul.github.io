@@ -9,11 +9,13 @@ h1 {
 p {
     color: #666;
 }
+
 .yuliia-name {
     color: #D32F2F; /* A powerful, bold red */
     font-weight: bold;
     font-style: italic;
 }
+
 img.illustration {
     width: 300px;
     height: 300px;
@@ -59,20 +61,14 @@ div.card {
     width: 100%; /* Default width */
 }
 
-@media (min-width: 350px) {
-    div.card {
-        width: 50%; /* Adjust the width for screens larger than 768px */
-    }
-}
-
 @media (min-width: 768px) {
     div.card {
-        width: 33.32%; /* Adjust the width for screens larger than 768px */
+        width: 50%; /* 1/2 */
     }
 }
 
 @media (min-width: 1024px) {
     div.card {
-        width: 19%; /* Adjust the width for screens larger than 1024px */
+        width: 33.32%; /* 1/3 */
     }
 }
