@@ -19,6 +19,9 @@ function loadJSON(url, callback) {
 // Function to populate footer element
 function populateFooter() {
   loadJSON("index.json", function (data) {
+    data.sort(function () {
+      return 0.5 - Math.random();
+    });
     loadText("note.html.partial", function (content) {
       var footer = document.getElementsByTagName("footer")[0];
       data.forEach(function (item) {
